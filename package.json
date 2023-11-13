@@ -12,10 +12,11 @@
     "server:prod": "NODE_ENV=production nodemon server.js",
     "start": "node server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "NODE_ENV=development concurrently \"npm run server\" \"npm run client\"",
     "prod": "concurrently \"npm run server:prod\" \"npm run client\""
   },
   "dependencies": {
+    "@apollo/client": "^3.8.6",
     "apollo-server-express": "^3.12.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",

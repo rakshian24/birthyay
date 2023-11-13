@@ -2,8 +2,8 @@ import { styled } from 'styled-components';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ROUTES } from './common/constants';
-import Home from './screens/Home';
-import AddBirthday from './screens/AddBirthday';
+import Home from './screens/Home/Home';
+import AddBirthday from './screens/AddBirthday/AddBirthday';
 import Notifications from './screens/Notifications';
 import Footer from './components/Footer/Footer';
 
@@ -21,6 +21,8 @@ const AppContainer = styled.div`
   margin: 0 auto;
   -ms-overflow-style: none;  //For hiding scroll bars in IE and Edge
   scrollbar-width: none; //For hiding scroll bars in Firefox
+  background: rgb(255,252,249);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,245,236,1) 90%);
 
   //For hiding scrollbar in Chrome, Safari and Opera
   &::-webkit-scrollbar {

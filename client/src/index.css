@@ -23,6 +23,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input[type="date"] { 
+  font-family: 'Arial';
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
