@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   justify-content: space-between;
   padding: 2rem 2.5rem;
   min-height: 6.5rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #fff;
   
   .footer-icon-lg{
     width: 3.125rem;
